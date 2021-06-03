@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <link rel="stylesheet" href="../static/main.css">
+    <meta charset="utf-8">
+    <title>Criador de Gráficos</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cachorro ou Gato</h1>
+
+      <form enctype="multipart/form-data" action="{{url_for('grafico')}}" method="post">
+        <input type="file" name="file" >
+        <input type="submit" value="Submit">
+
+      </form>
+
+      <p class='ps'>Esse site usa uma rede neural convolucional para determinar<br>se certa imagem pode ser classificado como cão ou gato</p>
+
+    </div>
+
+
+
+  </body>
+</html>

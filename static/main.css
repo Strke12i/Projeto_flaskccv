@@ -1,0 +1,38 @@
+html,body{
+  height: 100%;
+  margin:0;
+}
+
+.container{
+
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  color: #000000;
+  background-color: #ffffdd;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.container h1{
+
+    font-family: Arial,sans-serif;
+    font-size: 30px;
+    color: #DDCCEE;
+    margin-top: 80px;
+
+}
+
+
+.container form{
+  margin: 90px;
+
+}
+
+
+.ps{
+  margin: 100px;
+  font-family: cursive;
+
+}
